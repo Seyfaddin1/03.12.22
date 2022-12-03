@@ -16,8 +16,8 @@ a {
     left: 0%;
     width: 100%;
     z-index: 1;
+    position: fixed;
     
-
 }
 
 #header .container {
@@ -118,7 +118,7 @@ a {
 .page{
     width: 100%;
     height: 50vh;
-    background-color: orange;
+    background-color: rgb(244, 98, 58);
     position: relative;
 }
 .page .txt-1{
@@ -160,3 +160,93 @@ a {
     color: azure;
     border: none;
 }
+
+/* 3 cu sehife */
+.page-section{
+}
+
+
+.page-section .txt-centre h1{
+    color: black;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+.page-section .txt-centre hr{
+    width:  50px;
+    margin: 10px auto;
+    border: none;
+    height: 2px;
+    background-color: orange;
+
+}
+.page-section .boxes12{
+   
+}
+.page-section .boxes12 .icons{
+    display: flex;
+
+}
+.page-section  .boxes12 .icon i{
+    color: orangered;
+    font-size: 50px;
+}
+.page-section  .boxes12 .icon{
+    text-align: center;
+}
+.page-section  .boxes12 .icon h1{
+    color: black;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.page-section  .boxes12 .icons .icon p{
+    color: rgb(37, 33, 33);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.portfolio-picture{
+  margin-top: 40px;
+}
+
+.portfolio-picture .picture img{ 
+  
+    width: 33%;
+
+
+
+}
+.portfolio-section{
+    background-color: rgb(20, 184, 129);
+    padding: 8rem;
+}
+.portfolio-section .context{
+    text-align: center;
+}
+.portfolio-section .context h1{
+    margin-bottom: 40px;
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+}
+.portfolio-section .context a{
+    text-decoration: none;
+    padding: 16px 32px;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.6s;
+
+}
+.portfolio-section .context a:hover{
+    background-color: orange;
+  color:#fff
+}
+
+
+
